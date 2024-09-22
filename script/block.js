@@ -26,6 +26,6 @@ fetch('../data/product.json')
         })
         out.insertAdjacentHTML('afterbegin', cardItem);
   })
-  .catch(error => console.error('Error:', error));
+  //.catch(error => console.error('Error:', error));
 
   
