@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Медведь",
+        "price": 150,
+        "img": "../img/beer.jpeg"
+    },   
+    {
+        "id": 2,
+        "name": "Панда",
+        "price": 150,
+        "img": "../img/Panda.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Винни Пух",
+        "price": 190,
+        "img": "../img/vinni.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Чебурашка",
+        "price": 280,
+        "img": "../img/chebu.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Крош",
+        "price": 290,
+        "img": "../img/krosh.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Лунтик",
+        "price": 340,
+        "img": "../img/luntik.jpg"
+    }
+]

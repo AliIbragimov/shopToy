@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToyShop</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/input-style.css">
+    <link rel="stylesheet" href="./style/window.css">
+    <script src="./script/block.js"></script>
+  </head>
+  <body>
+    <header>
+      <label class='head-label'>ToyShop</label>
+      <div class="head-line">
+        <div><img src="./res/home.svg" alt="" onclick="resetElement()" style="cursor: pointer;"></div>
+         <input id="search-header" type="text" onkeypress="return runScript(event)" placeholder="Введите для поиска...">
+        <div><img id="imgBacket" src="./res/shop.svg" alt="" onclick="oModal()" style="cursor: pointer;"></div>
+      </div>
+    </header>
+    <main id="main-core">
+    </main>
+    
+    <div id="openModal" class="window">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="window-header">
+            <label class="window-backet">Ваша Корзина</label>
+            <button class="window-button" onclick="cModal()"></button>
+          </div>
+          <hr style="size: 1px; width: 99%; noshade:noshade;">
+          <div class="modal-body">
+            <ul id="basketToy" class="modal-toy">
+            </ul>
+          </div>
+          <div class="sum-basket">
+            <div class="sum-label">
+            <label for="">Сумма всех товаров - </label>
+            <label id="allToySum" for="">0</label>
+            <label for="">р</label>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="message-buy">
+      <h3>Добавлено в корзину</h3>
+      <div style="padding-right: 5px; padding-left: 5px;">
+        <button onclick="messageClose()" class="message-button"></button>
+      </div>
+    </div>
+
+    <script src="./script/backet.js"></script>
+    <script src="./script/close.js" defer></script>
+    <script src="./script/input.js" defer></script>
+  </body>
+  </html>
